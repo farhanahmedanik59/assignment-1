@@ -1,0 +1,13 @@
+.bg-img{
+  background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
+  height:698px;
+  
+
+}
+.nav-bar{
+  max-width:1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
