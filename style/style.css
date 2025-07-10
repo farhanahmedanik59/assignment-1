@@ -11,9 +11,7 @@
   font-style: normal;
 }
 
-.button-hover:hover{
-  cursor: pointer;
-}
+
 
 .universal-button{
   background-color: #4E47FF;
@@ -26,11 +24,15 @@
   height:698px;
 }
 .nav-bar{
-  max-width:1140px;
+  max-width:1576px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.nav-bar button:hover{
+  cursor: pointer;
 }
 
 .nav-bar button{
@@ -69,6 +71,9 @@ nav h1{
   border: none;
   font-size: 16px;
   font-weight: bold;
+}
+.banner-text button:hover{
+  cursor: pointer;
 }
 .content{
   max-width: 1140px;
@@ -126,4 +131,50 @@ nav h1{
   margin-top: 0px;
   text-align: center;
   color: #00000098;
+}
+.feedback{
+  max-width: 1140px;
+  max-height:342px;
+  margin:184px auto 89px auto;
+  
+}
+.feedback-content{
+  display: flex;
+  gap:20px;
+  
+}
+.user-review{
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+
+.star-img{
+  max-width:336.67px ;
+  max-height: 243px;
+  text-align: center;
+  background-color: #FAFBFF;
+  padding:24px ;
+  border-radius: 10px;
+ 
+}
+.image img{
+  float: left;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 6px;  
+}
+
+.focus-section{
+  max-width:1140px;
+  
+  margin: 0 auto;
+  text-align: center;
+}
+.focus-section img{
+  height:362.77px ;
+  width:840px;
 }
