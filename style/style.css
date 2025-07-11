@@ -101,6 +101,9 @@ nav h1{
   font-weight: bold;
   border: none;
 }
+.content button:hover{
+  cursor: pointer;
+}
 .user-info{
   max-width:1140px;
   max-height:306px; 
@@ -158,6 +161,7 @@ nav h1{
   background-color: #FAFBFF;
   padding:24px ;
   border-radius: 10px;
+
  
 }
 .image img{
@@ -165,7 +169,8 @@ nav h1{
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  margin-right: 6px;  
+  margin-right: 6px; 
+
 }
 
 .focus-section{
@@ -177,4 +182,94 @@ nav h1{
 .focus-section img{
   height:362.77px ;
   width:840px;
+  border-radius: 30px;
+}
+.focus-section h1{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.focus-section p{
+  color: rgb(82, 81, 81);
+
+}
+.focus-section button{
+  margin:20px 0px;
+  padding: 16px 32px;
+  border: none;
+}
+.focus-section button:hover{
+  cursor: pointer;
+}
+
+.submit{
+  max-width:1140px ;
+  max-height:632px;
+  display: flex;
+  margin: 0 auto;
+  margin-top:84.23px ;
+  align-items: center;
+  gap: 80px;
+} 
+.submit h1{
+  font-size: 97px;
+  font-weight: bold;
+}
+
+.email,.name{
+  height: 27px;
+  width: 497px;
+  border-radius: 10px;
+  border: 1px solid rgb(167, 156, 156);
+  padding: 20px;
+}
+
+.message{
+  height: 135px;
+  width: 496px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(167, 156, 156);
+  
+
+}
+.submit h4{
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.form button{
+  padding: 17px 201px;
+  display: block;
+  margin: 19px auto 0 auto;
+  border: none;
+}
+.form button:hover{
+  cursor: pointer;
+}
+footer{
+  max-height:221px ;
+  max-width: 531px;
+  margin: 118px auto;
+  margin-top: ;
+ text-align: center;
+}
+footer h1{
+  font-size: 100px;
+  color: #4E47FF;
+  font-weight: bolder;
+  margin-bottom: 8px;
+}
+footer p{
+  color: #00000098;
+}
+.navigation a{
+ margin-right: 20px;
+ text-decoration: none;
+ color: #8987A1;
+}
+footer h2{
+ text-align: center;
+ font-size: larger;
+  margin-top: 40px;
 }
