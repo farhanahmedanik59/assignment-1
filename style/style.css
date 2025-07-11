@@ -19,6 +19,9 @@
   color: white;
   border: none;
 }
+body{
+  background-color: whitesmoke;
+}
 .bg-img{
   background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
   height:698px;
@@ -175,9 +178,11 @@ nav h1{
 
 .focus-section{
   max-width:1140px;
-  
+  background-color:rgb(255, 255, 255);
   margin: 0 auto;
   text-align: center;
+  padding: 20px;
+  border-radius: 10px;
 }
 .focus-section img{
   height:362.77px ;
